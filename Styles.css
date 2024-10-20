@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brands {
+  display: flex;
+  gap:300px;
+  margin-left: 230px;
+  margin-top: 80px; 
+  margin-bottom: 50px;
+}
+.brands .img1{
+    width: 500px;
+}
+.h1{
+    margin-right: 28rem;
+    padding-top: 10px;
+    padding-left: 1rem;
+}
+.step1 .h2{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+   
+}
+.step3{
+    margin-right: 2rem;
+}
+
+.step2 .h2{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    
+}
+.step3 .h2{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+    
+}
+.step1 .p1{
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    
+}
+.step2 .p1{
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    
+}
+.step3 .p1{
+    text-align:  left;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    
+}
+.h3{
+    color:darkorange;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.step1{
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+    border-radius: 10px;
+   
+}
+.step2{
+    background: linear-gradient(90.4deg, rgb(248, 52, 246) 0.6%, rgb(152, 38, 252) 90%);
+    border-radius: 10px;
+}
+.step3{
+    background: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+    border-radius: 10px;
+}
+.steps{
+   display: flex;
+   gap:10px;
+}
+.video-demo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content1 .cls1{
+     text-align: left;
+}
+.content1 #p1{
+    text-align: left;
+}
+.content1 .cls1{
+   color:rgba(0, 0, 255, 0.96)
+}
+#p1 {
+    padding-top: 2rem;
+}
+.vid-img{
+    padding-right: 3rem;
+}
+.content1{
+    padding-left: 3rem;
+}
+.marketing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#id1{
+   text-align: left;
+   padding-left: 7rem;
+   font-size: xx-large;
+   font-weight: bold;
+   color:rgba(139, 0, 139, 0.87)
+}
+#id2{
+    text-align: left;
+    padding-left: 7rem;
+}
+
+.marketing-images{
+    padding-right: 7rem;
+}
+#cls1{
+    background: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+}
+#cls2{
+    background: linear-gradient(107deg, rgb(255, 67, 5) 11.1%, rgb(245, 135, 0) 95.3%);
+}
+#cls3{
+    background: linear-gradient(110.1deg, rgb(34, 126, 34) 2.9%, rgb(168, 251, 60) 90.3%);
+}
+#cls4{
+    background: linear-gradient(109.8deg, rgb(62, 5, 116) -5.2%, rgb(41, 14, 151) -5.2%, rgb(216, 68, 148) 103.3%);
+}
+.p1{
+    text-align: left;
+    padding-top: 1rem;
+
+    color: white;
+}
+.p2{
+    text-align: left;
+     padding-top: 1rem;
+     color: white;
+}
+h2{
+    text-align: left;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
+#img3{
+    padding: 3rem;
+}
+
+/* Header */
+header {
+    background: #fff;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+nav .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff0080; /* Vibrant pink as in the image */
+}
+
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ff0080; /* Hover pink */
+}
+
+/* Authentication Links */
+.auth {
+    display: flex;
+    gap: 15px;
+}
+
+.auth a {
+    color: #ff0080;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.auth a.signup {
+    background: #ff0080;
+    color: #fff;
+}
+
+.auth a.signup:hover {
+    background: #d00070;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    background: #fff;
+}
+
+.hero .content h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.hero .content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    color: #6f6f6f;
+}
+
+.cta {
+    background: #ff0080;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #d00070;
+}
+
+.hero-image img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Trusted by Section */
+.trusted {
+    text-align: center;
+    padding: 2rem 0;
+    background: #fff;
+}
+
+.trusted p {
+    color: #666;
+}
+
+.brands img {
+    margin: 0 15px;
+    max-width: 100px;
+}
+
+/* Features Section */
+.features {
+    padding: 4rem 2rem;
+    text-align: center;
+    
+    color: white;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.step {
+    flex: 1;
+    padding: 1rem;
+    background: #fff;
+    margin: 0 10px;
+    border-radius: 10px;
+    color: #333;
+}
+
+.step h3 {
+    font-size: 1.5rem;
+}
+
+/* Video Demo Section */
+.video-demo {
+    padding: 4rem 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.video-demo h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.video-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Marketing Section */
+.marketing {
+    padding: 4rem 2rem;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.marketing h2 {
+    color: #333;
+}
+
+.marketing p {
+    color: #6f6f6f;
+}
+
+.marketing-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.marketing-images img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+/* Pricing Section */
+.pricing {
+    padding: 4rem 2rem;
+    background: linear-gradient(to right, #ff6e6e, #ffb900, #00d084, #2b83f6);
+    color: white;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pricing-card {
+    background: #fff;
+    color: #333;
+    padding: 2rem;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+/* Industries Section */
+.industries {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.industries h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.industry-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.industry {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.industry img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.industry h3 {
+    margin-top: 1rem;
+    color: #333;
+}
+
+/* Footer */
+footer {
+    padding: 2rem;
+    text-align: center;
+    background: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .auth {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .steps {
+        flex-direction: column;
+    }
+
+    .industry-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
